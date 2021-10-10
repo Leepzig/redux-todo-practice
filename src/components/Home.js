@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import React from 'react'
+
 import NewTodo from './NewTodo'
 import TodoList from './TodoList'
 
 const Home = () => {
-    const dispatch = useDispatch()
 
-    useEffect(() => {
-
-    })
 
     return (
         <div>
